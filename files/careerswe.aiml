@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+  <category>
+    <pattern>SWE</pattern>
+    <template>
+      Based on your answers, a career as a <b>Software Engineer</b> may be a good fit. This role focuses on designing, building, and maintaining software that performs specific tasks or solves problems.
+      <br/><br/>
+      Click on the following link to learn more about your career path we suggest!
+      <link>
+          <text>Software Engineer</text>
+          <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</url>
+      </link>
+    </template>
+  </category>
+  
+</aiml>

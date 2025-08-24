@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+  <category>
+    <pattern>DATASCI</pattern>
+    <template>
+      A career as a <b>Data Scientist</b> could be a great match. Data scientists use programming, statistics, and analytics to extract insights and make data-driven decisions.
+      <br/><br/>
+      Click on the following link to learn more about your career path we suggest!
+      <link>
+          <text>Data Scientist</text>
+          <url>https://www.bls.gov/ooh/math/data-scientists.htm</url>
+      </link>
+    </template>
+  </category>
+  
+</aiml>

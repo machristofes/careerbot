@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+  <category>
+    <pattern>DEVOPS</pattern>
+    <template>
+      You may enjoy working as a <b>DevOps Engineer</b>. This career focuses on improving software development processes, managing infrastructure, and automating deployment pipelines.
+      <br/><br/>
+      Click on the following link to learn more about your career path we suggest!
+      <link>
+          <text>DevOps Engineer</text>
+          <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</url>
+      </link>
+    </template>
+  </category>
+  
+</aiml>

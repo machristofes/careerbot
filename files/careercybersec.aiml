@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+  <category>
+    <pattern>CYBERSEC</pattern>
+    <template>
+      You may be well-suited for a career as a <b>Cybersecurity Analyst</b>. This role involves protecting digital systems from security breaches, monitoring for threats, and improving data protection.
+    <br/><br/>
+      Click on the following link to learn more about your career path we suggest!
+      <link>
+          <text>Cyber Security Analyst</text>
+          <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</url>
+      </link>
+    </template>
+  </category>
+  
+</aiml>

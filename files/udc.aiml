@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+  <category>
+    <pattern>HI</pattern>
+    <template>
+      Hello, and welcome to CareerBot. This tool will ask you a few questions to help match you with a career in computer science.<br/>
+      Please choose one of the options below to begin:
+      <button>
+        <text>Start Career Finder</text>
+        <postback>find a career</postback>
+      </button>
+      <button>
+        <text>View Top 5 Careers</text>
+        <postback>Current top careers</postback>
+      </button>
+    </template>
+  </category>
+
+  <category>
+    <pattern>FIND A CAREER</pattern>
+    <template>
+      Great! Let’s begin.<br/><br/>
+      Do you enjoy solving problems that require logical thinking or technical understanding?
+      <button>
+        <text>Yes</text>
+        <postback>Q2</postback>
+      </button>
+      <button>
+        <text>No</text>
+        <postback>Not for me</postback>
+      </button>
+    </template>
+  </category>
+
+  <category>
+    <pattern>Q2</pattern>
+    <template>
+      Are you interested in writing code or building digital tools and applications?
+      <button>
+        <text>Yes</text>
+        <postback>Q3</postback>
+      </button>
+      <button>
+        <text>No</text>
+        <postback>Q6</postback>
+      </button>
+    </template>
+  </category>
+
+  <category>
+    <pattern>Q3</pattern>
+    <template>
+      Would you prefer to work on software that users interact with, or on the systems and processes that support software behind the scenes?
+      <button>
+        <text>User-facing software</text>
+        <postback>Q4</postback>
+      </button>
+      <button>
+        <text>Back-end systems</text>
+        <postback>Q5</postback>
+      </button>
+    </template>
+  </category>
+
+  <category>
+    <pattern>Q4</pattern>
+    <template>
+      Are you more interested in ensuring the program works correctly, or in how it looks and feels for the user?
+      <button>
+        <text>Functionality and performance</text>
+        <postback>SWE</postback>
+      </button>
+      <button>
+        <text>User interface and experience</text>
+        <postback>UX</postback>
+      </button>
+    </template>
+  </category>
+
+  <category>
+    <pattern>Q5</pattern>
+    <template>
+      Do you enjoy organizing systems, managing servers, or automating software processes?
+      <button>
+        <text>Yes</text>
+        <postback>DEVOPS</postback>
+      </button>
+      <button>
+        <text>No</text>
+        <postback>Try again</postback>
+      </button>
+    </template>
+  </category>
+
+  <category>
+    <pattern>Q6</pattern>
+    <template>
+      Are you interested in analyzing data, recognizing trends, or working with numbers and statistics?
+      <button>
+        <text>Yes</text>
+        <postback>Q7</postback>
+      </button>
+      <button>
+        <text>No</text>
+        <postback>Q8</postback>
+      </button>
+    </template>
+  </category>
+
+  <category>
+    <pattern>Q7</pattern>
+    <template>
+      Are you comfortable using tools like spreadsheets, Python, or working with charts and reports?
+      <button>
+        <text>Yes</text>
+        <postback>DATASCI</postback>
+      </button>
+      <button>
+        <text>No</text>
+        <postback>Try again</postback>
+      </button>
+    </template>
+  </category>
+
+  <category>
+    <pattern>Q8</pattern>
+    <template>
+      Are you interested in cybersecurity, protecting data, and identifying potential system vulnerabilities?
+      <button>
+        <text>Yes</text>
+        <postback>CYBERSEC</postback>
+      </button>
+      <button>
+        <text>No</text>
+        <postback>Try again</postback>
+      </button>
+    </template>
+  </category>
+
+
+  <!-- OTHER OPTIONS, Links to Careers are as close to the careers possible on BLS. -->
+
+  <category>
+    <pattern>CURRENT TOP CAREERS</pattern>
+    <template>
+      Here are five of the top career paths in computer science today. Click on them to find out more information from the Bureau of Labor Statistics!<br/>
+       <link>
+          <text>Software Engineer</text>
+          <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</url>
+      </link>
+       <link>
+          <text>Data Scientist</text>
+          <url>https://www.bls.gov/ooh/math/data-scientists.htm</url>
+      </link>
+       <link>
+          <text>DevOps Engineer</text>
+          <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</url>
+      </link>
+       <link>
+          <text>Cyber Security Analyst</text>
+          <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</url>
+      </link>
+       <link>
+          <text>UX/UI Designer</text>
+          <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm</url>
+      </link>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TRY AGAIN</pattern>
+    <template>
+      No problem. Let’s restart the career finder.<br/>
+      <button>
+        <text>Restart Career Finder</text>
+        <postback>find a career</postback>
+      </button>
+    </template>
+  </category>
+
+  <category>
+    <pattern>NOT FOR ME</pattern>
+    <template>
+      That’s okay. Computer science may not be the best match for your current interests. If you’d like to explore again, you can restart the quiz below.
+      <button>
+        <text>Try Again</text>
+        <postback>find a career</postback>
+      </button>
+    </template>
+  </category>
+
+</aiml>

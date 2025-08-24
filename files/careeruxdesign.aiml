@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+  <category>
+    <pattern>UX</pattern>
+    <template>
+      You might be interested in becoming a <b>UX/UI Designer</b>. This role involves creating user-friendly and visually appealing designs for websites, apps, and other digital products.
+      <br/><br/>
+      Click on the following link to learn more about your career path we suggest!
+      <link>
+          <text>UX/UI Designer</text>
+          <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm</url>
+      </link>
+    </template>
+  </category>
+  
+</aiml>
